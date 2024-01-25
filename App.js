@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
     },
     halfscreen: {
         flex: 0.5,
+        width: '100%',
         alignItems: 'center',
         justifyContent: 'center'
     },
@@ -45,6 +46,8 @@ const styles = StyleSheet.create({
         margin: 10,
         borderRadius: 15,
         backgroundColor: 'lightblue',
+        justifyContent: 'center',
+        alignItems:'center'
     },
     text: {
         fontSize: 24,
