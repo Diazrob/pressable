@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ca.robeediaz.pressable",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "ca.robeediaz.pressable",
+      "versionCode": 100000
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d5321bc-2180-4331-a5fe-b7141cf6a4f8"
+      }
     }
   }
 }
